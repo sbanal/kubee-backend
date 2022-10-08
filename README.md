@@ -29,3 +29,12 @@ docker build -t kubee-backend .
 docker run -it kubee-backend -p 8080:8080
 ```
 
+# Publish
+
+Before running commands below ensure that you have Signed-in in your Docker Desktop application.
+This assumes you are using docker desktop and you have your own Docker Hub account.
+
+```
+docker build -t sbanal/kubee-backend .
+docker push sbanal/kubee-backend
+```
