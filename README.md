@@ -41,7 +41,7 @@ docker push sbanal/kubee-backend
 
 Test run:
 ```
-docker run -it --rm -p 8080:8080 sbanal/kubee-backend
+docker run -it --rm --name kubee-backend -p 8080:8080 sbanal/kubee-backend
 ```
 
 # Reference
