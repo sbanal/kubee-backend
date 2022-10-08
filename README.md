@@ -26,7 +26,7 @@ docker build -t kubee-backend .
 # Run Image
 
 ```
-docker run -it kubee-backend -p 8080:8080
+docker run -it --rm --name kubee-backend -p 8080:8080 kubee-backend
 ```
 
 # Publish
