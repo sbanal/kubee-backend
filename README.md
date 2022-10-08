@@ -38,3 +38,13 @@ This assumes you are using docker desktop and you have your own Docker Hub accou
 docker build -t sbanal/kubee-backend .
 docker push sbanal/kubee-backend
 ```
+
+Test run:
+```
+docker run -it --rm -p 8080:8080 sbanal/kubee-backend
+```
+
+# Reference
+
+* https://start.spring.io/
+* https://spring.io/guides/topicals/spring-boot-docker/
